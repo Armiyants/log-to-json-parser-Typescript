@@ -1,0 +1,31 @@
+{
+  "name": "nodejs-log-parser",
+  "version": "1.0.0",
+  "description": "Develop the command line node.js application, which parses the input log file (see Input Example). The application should find all the log messages with the level error and print them into the output file (see Output Format).",
+  "main": "index.js",
+  "scripts": {
+    "build": "tsc",
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "http://berbob-gmbh-wzzqse@git.codesubmit.io/berbob-gmbh/nodejs-logger-hzpvkj"
+  },
+  "keywords": [],
+  "author": "Kristine Armiyants",
+  "license": "ISC",
+  "dependencies": {
+    "@types/node": "^18.15.11",
+    "@types/yargs": "^17.0.24",
+    "typescript": "^5.0.2"
+  },
+  "devDependencies": {
+    "@jest/globals": "^29.5.0",
+    "@types/jest": "^29.5.0",
+    "jest": "^29.5.0",
+    "ts-jest": "^29.0.5",
+    "yargs": "^17.7.1",
+    "eslint": "8.22.0",
+    "prettier": "2.8.7"
+  }
+}
